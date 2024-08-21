@@ -36,6 +36,9 @@ public class OperEx1 {
         System.out.printf("%d / %d = %f\n", num1, num2, result);
         result = num1 / (float) num2;
         System.out.printf("%d / %d = %f\n", num1, num2, result);
+
+        char ch1 = 'A' + 1;
+        System.out.println("ch = " + ch1); // B
     }
 
 }
