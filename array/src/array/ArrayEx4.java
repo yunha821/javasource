@@ -16,7 +16,6 @@ public class ArrayEx4 {
         // 기존 10명의 점수를 복사
         for (int i = 0; i < jumsu2.length; i++) {
             jumsu2[i] = jumsu[i];
-
         }
 
         // 복사 후 확인
@@ -31,13 +30,13 @@ public class ArrayEx4 {
         // int jumsu3 = sc.nextInt();
 
         for (int i = 10; i < 15; i++) {
-            System.out.printf("%d 번 학생 점수 입력 : ", i);
+            // System.out.printf("%d 번 학생 점수 입력 : ", i);
             jumsu2[i] = sc.nextInt();
 
         }
 
-        // 확인
-        System.out.println(Arrays.toString(jumsu2));
+        // 확인 (화면 출력)
+        System.out.println(Arrays.toString(jumsu2)); // {88, 798, ...........}
 
         sc.close();
 
