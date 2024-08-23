@@ -14,7 +14,7 @@ public class ArrayEx4 {
         // 15명의 점수를 담을 저장공간 생성
         int jumsu2[] = new int[15];
         // 기존 10명의 점수를 복사
-        for (int i = 0; i < jumsu2.length; i++) {
+        for (int i = 0; i < jumsu.length; i++) {
             jumsu2[i] = jumsu[i];
         }
 
@@ -28,6 +28,7 @@ public class ArrayEx4 {
         Scanner sc = new Scanner(System.in);
 
         // int jumsu3 = sc.nextInt();
+        System.out.println("5auddml");
 
         for (int i = 10; i < 15; i++) {
             // System.out.printf("%d 번 학생 점수 입력 : ", i);
