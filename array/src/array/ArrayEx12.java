@@ -20,6 +20,7 @@ public class ArrayEx12 {
 
         scores = new int[jumsu];
 
+        
         // 점수 입력
         for (int i = 0; i < scores.length; i++) {
             System.out.printf("%d 번 점수 입력 >>", (i + 1));

@@ -11,6 +11,8 @@ public class Student {
     // 클래스 이름(){}
     // 생성자를 명시하지 않는다면 컴파일러가 default 생성자를 자동으로 생성함
     // 생성자 목적 : 인스턴스 초기화 메서드
+    // this : 자기자신
+    // super : 부모
 
     // 생성자 오버로딩
     Student() {
@@ -21,13 +23,16 @@ public class Student {
     }
 
     public Student(String number, String name) {
-        this.number = number;
+        // this.number = number;
+        this(number);
         this.name = name;
     }
 
     public Student(String number, String name, String address) {
-        this.number = number;
-        this.name = name;
+        // this.number = number;
+        // this.name = name;
+        // this.address = address;
+        this(number, name);
         this.address = address;
     }
 
