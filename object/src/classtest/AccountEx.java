@@ -17,6 +17,11 @@ public class AccountEx {
         }
         System.out.println("출금 후 현재 잔액 : " + balance);
 
+        printAccount(ac);
+    }
+
+    static void printAccount(Account ac) {
+
     }
 
 }
