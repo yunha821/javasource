@@ -15,19 +15,23 @@ public class Account {
     // 예금하다(deposit)
     // 잔액 = 잔액 + 예금액
     // 리턴 없음
-    void deposit(int a) {
-        balance += a;
+    void deposit(int amount) {
+        balance += amount;
     }
 
     // 출금하다(withdraw)
     // 잔액 = 잔액 - 출금액
     // 잔액 return
-    int withdraw(int a) {
-        if (a > balance) {
+    int withdraw(int amount) {
+        if (amount > balance) {
             return -1;
         }
-        balance -= a;
+        balance -= amount;
         return balance;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
     }
 
     public int getBalance() {
