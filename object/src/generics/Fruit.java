@@ -39,7 +39,7 @@ class Juice {
 
     @Override
     public String toString() {
-        return "Juice";
+        return name;
     }
 
 }
